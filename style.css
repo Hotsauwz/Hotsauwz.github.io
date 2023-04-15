@@ -29,12 +29,13 @@ p {
 	display: inline-grid;
 	grid-template-columns: repeat(4, 1fr);
 	grid-template-rows: repeat(3, 1fr); 
-	grid-column-gap: 10px;
-	grid-row-gap: 10px;
+	grid-column-gap: 20px;
+	grid-row-gap: 15px;
 	} 
 
 
 .button {
+	width: 100%;
 	border: none;
 	color: white;
 	display: block;
@@ -43,7 +44,7 @@ p {
 	text-decoration: none;
 	display: inline-block;
 	font-size: 2em;
-	margin: 0.2em 0.6em;
+	margin: 0.2em;
 	opacity: 0.6;
 	cursor: pointer;
 	border-radius: 0.3em;
