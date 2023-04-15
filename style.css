@@ -17,6 +17,14 @@ body {
 	overflow-x: hidden;
 }
 
+p {
+	text-align: right;
+	margin-right: 1em;
+	margin-top: 1em;
+	font-family: test;
+	font-size: 2em;
+}
+
 .grid {
 	display: inline-grid;
 	grid-template-columns: repeat(4, 1fr);
@@ -122,6 +130,7 @@ a, a:visited, a:hover {
 	font-family: 'test';
 	font-size: 120px;
 	margin-bottom: 20px;
+	margin-top: 1em;
 }
 
 /* ------------- BOX STYLING ------------- */
@@ -184,8 +193,6 @@ a, a:visited, a:hover {
 }
 
 .container form .search-submit::before {
-	background-image:url(google1.svg);
-	background-position:center center;
 	fill: #ff5047;
 	content:"";
 	width:23px;
